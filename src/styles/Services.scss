@@ -1,0 +1,146 @@
+$textColor: rgba(85, 61, 42, .95);
+
+.services__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__h1 {
+    font-family: "PTSerif-Regular";
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: $textColor;
+
+    margin-top: 50px;
+}
+
+.servicesContent__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.accordion-header {
+    text-align: center;
+    background-color: $textColor;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.accordion-content {
+    // display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.accordion__animation {
+    transition: 0.3s all ease-in-out;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+        list-style: none;
+        font-family: "Montserrat-Regular";
+        font-size: 16px;
+    }
+}
+
+.prices__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    span {
+        font-family: "Montserrat-Regular";
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    span {
+        font-family: "Montserrat-Regular";
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+.registration__button {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: $textColor;
+    text-align: center;
+}
+
+// MEDIA
+@media (max-width: 630px) {
+    .services__h1 {
+        font-size: 36px;
+    }
+
+    .accordion-header {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .list li {
+        font-size: 15px;
+    }
+
+    .accordion-header {
+        font-size: 15px;
+    }
+}

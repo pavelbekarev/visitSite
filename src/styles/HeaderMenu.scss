@@ -1,0 +1,58 @@
+@import url("../fonts/stylesheet.css");
+
+.headerMenu__wrapper {
+    // display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // gap: 100px;
+    list-style: none;
+    padding: 15px 0;
+}
+
+
+.headerList__item {
+    font-family: "Montserrat-Bold";
+    font-weight: 100;
+    font-size: 24px;
+
+    a {
+        text-decoration: none;
+        color: rgba(85, 61, 42, 1);
+
+        &:hover,
+        &:focus {
+            color:  rgba(85, 61, 42, .75);
+        }
+
+        // TODO: добавить анимацию при наведении
+    }
+}
+
+
+// MEDIA
+@media (max-width: 630px) {
+    .headerList__item {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .headerList__item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .headerList__item {
+        font-size: 12px;
+    }
+}

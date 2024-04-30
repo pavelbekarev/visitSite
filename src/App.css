@@ -1,0 +1,16 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  background: rgba(255, 0, 255, 0.1);
+  height: 100%;
+  margin: 0 auto;
+}
+
+.headerMenu_header {
+  border-bottom: 2px rgba(85, 61, 42, 1) solid;
+}
