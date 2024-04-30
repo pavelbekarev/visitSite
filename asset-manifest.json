@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/visitSite/static/css/main.3ecc3ffb.css",
+    "main.js": "/visitSite/static/js/main.25e93e01.js",
+    "static/js/453.26461dd8.chunk.js": "/visitSite/static/js/453.26461dd8.chunk.js",
+    "static/media/start_page.png": "/visitSite/static/media/start_page.96c3f0ab733cc7836891.png",
+    "static/media/PTSerif-Italic.ttf": "/visitSite/static/media/PTSerif-Italic.d90ee47f324014fc2bae.ttf",
+    "static/media/PTSerif-Regular.ttf": "/visitSite/static/media/PTSerif-Regular.6271ca9bf4c029802fc0.ttf",
+    "static/media/Montserrat-Italic.ttf": "/visitSite/static/media/Montserrat-Italic.f4a742d68090a0bfc33f.ttf",
+    "static/media/Montserrat-Bold.ttf": "/visitSite/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-Medium.ttf": "/visitSite/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Light.ttf": "/visitSite/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/visitSite/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/PTSerif-Bold.ttf": "/visitSite/static/media/PTSerif-Bold.baec85e607f452497274.ttf",
+    "static/media/PTSerif-BoldItalic.ttf": "/visitSite/static/media/PTSerif-BoldItalic.318ae97b9a42b7a6d6ba.ttf",
+    "static/media/AustinCyr-SemiboldItalic.woff": "/visitSite/static/media/AustinCyr-SemiboldItalic.921a609d51bf7cc85b6d.woff",
+    "static/media/AustinCyr-BoldItalic.woff": "/visitSite/static/media/AustinCyr-BoldItalic.eb5f9235c089d4ed2da6.woff",
+    "static/media/AustinCyr-MediumItalic.woff": "/visitSite/static/media/AustinCyr-MediumItalic.3c89d4ba37db874002a1.woff",
+    "static/media/AustinCyr-Bold.woff": "/visitSite/static/media/AustinCyr-Bold.7ef58a7255b7dcad50a8.woff",
+    "static/media/AustinCyr-Extrabold.woff": "/visitSite/static/media/AustinCyr-Extrabold.3deddf2da643502140ff.woff",
+    "static/media/AustinCyr-Semibold.woff": "/visitSite/static/media/AustinCyr-Semibold.46bc75fc7f181196b5b9.woff",
+    "static/media/AustinCyr-Medium.woff": "/visitSite/static/media/AustinCyr-Medium.0aceb2a265f3e30ee5be.woff",
+    "index.html": "/visitSite/index.html",
+    "static/media/Line.svg": "/visitSite/static/media/Line.c12a73606397cddd0fea1ef83f23a882.svg",
+    "main.3ecc3ffb.css.map": "/visitSite/static/css/main.3ecc3ffb.css.map",
+    "main.25e93e01.js.map": "/visitSite/static/js/main.25e93e01.js.map",
+    "453.26461dd8.chunk.js.map": "/visitSite/static/js/453.26461dd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ecc3ffb.css",
+    "static/js/main.25e93e01.js"
+  ]
+}
