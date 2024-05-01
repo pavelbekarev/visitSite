@@ -144,3 +144,9 @@ $textColor: rgba(85, 61, 42, .95);
         font-size: 15px;
     }
 }
+
+@media (max-width: 430px) {
+    .services__h1 {
+        font-size: 30px;
+    }
+}
