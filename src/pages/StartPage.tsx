@@ -1,6 +1,6 @@
 import { HeaderMenu } from "../components/HeaderMenu";
 import "../styles/StartPage.scss";
-import start_pageImage from "../img/start_page.png";    
+import start_pageImage from "../img/start_page.jpg";    
 
 export const StartPage = (): JSX.Element => {
     return (

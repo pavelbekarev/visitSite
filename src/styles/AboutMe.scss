@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(245, 245, 220, 1);
+}
+
 .aboutMe__wrapper {
     display: flex;
     flex-direction: column;
@@ -187,7 +191,7 @@
     }
 
     .line {
-        top: 75%;
+        top: 83.5%;
         left: 40%;
         width: 100px;
         height: 50px;
@@ -198,7 +202,7 @@
 
 @media (max-width: 375px) {
     .line {
-        top: 74%;
+        top: 83.5%;
         width: 50px;
         height: 50px;
         left: 45%;
@@ -215,7 +219,7 @@
     }
 
     .line {
-        top: 70%;
+        top: 79%;
         width: 50px;
         height: 50px;
         left: 45%;
