@@ -5,6 +5,7 @@ $textColor: rgba(85, 61, 42, .95);
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .services__h1 {
@@ -67,6 +68,16 @@ $textColor: rgba(85, 61, 42, .95);
     width: 80%;
     gap: 30px;
     padding: 40px 20px;
+
+
+    span {
+        font-family: "Montserrat-Italic";
+    }
+
+    h4 {
+        font-family: "PTSerif-Regular";
+        letter-spacing: 2px;
+    }
 }
 
 .accordion__animation {
@@ -111,6 +122,8 @@ $textColor: rgba(85, 61, 42, .95);
         font-size: 14px;
         letter-spacing: 1px;
     }
+
+    
 }
 
 .registration__button {
@@ -122,6 +135,7 @@ $textColor: rgba(85, 61, 42, .95);
     text-transform: uppercase;
     color: $textColor;
     text-align: center;
+    font-family: "PTSerif-Regular";
 }
 
 // MEDIA
