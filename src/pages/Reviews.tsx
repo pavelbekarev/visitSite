@@ -61,40 +61,10 @@ export const Reviews = () => {
                         <div className="reviews__wrapper">
                             <h1 className="reviews__h1">Отзывы</h1>
                             <div className="slider__wrapper">
-                                {/* <button 
-                                    className="button-prev"
-                                    onClick={() => {
-                                        
-                                    }}
-                                >-</button>
-                                <div className="slider">
-                                    <div className={`slider__items`}>
-                                        <div className="slide">
-                                            <span>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore cupiditate neque alias voluptatibus laudantium mollitia reprehenderit natus distinctio culpa facere, fuga autem ex tempore voluptates quos veniam. Repellat, atque!
-                                            </span>
-                                        </div>
-                                        <div className="slide">
-                                            <span>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore cupiditate neque alias voluptatibus laudantium mollitia reprehenderit natus distinctio culpa facere, fuga autem ex tempore voluptates quos veniam. Repellat, atque!
-                                            </span>
-                                        </div>
-                                        <div className="slide">
-                                            <span>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore cupiditate neque alias voluptatibus laudantium mollitia reprehenderit natus distinctio culpa facere, fuga autem ex tempore voluptates quos veniam. Repellat, atque!
-                                            </span>
-                                        </div>
-                                        <div className="slide">
-                                            <span>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore cupiditate neque alias voluptatibus laudantium mollitia reprehenderit natus distinctio culpa facere, fuga autem ex tempore voluptates quos veniam. Repellat, atque!
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button className="button-next">+</button> */}
                                 <SimpleSlider />
 
                             </div>
+                            <h1 className="reviews__h1">Выполненные работы</h1>
                         </div>
                     </div>
                 </section>
