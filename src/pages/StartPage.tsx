@@ -22,9 +22,8 @@ export const StartPage = (): JSX.Element => {
                             <div className="info__content">
                                 <h2 className="owner__name">НАТАЛЬЯ ВЕРИНА</h2>
                                 <span className="profession__descr">
-                                    психодиетолог, нутрициолог. <br />
-                                    специалист по коррекции пищевого поведения <br />
-                                    и избыточной массы тела
+                                    Автор и интегратор проекта Ресурс <br/>
+                                    HRBP, Управленец, педагог-психолог, коуч.
                                 </span>
                             </div>
                             <a href="" className="contactButton__wrapper">Связаться</a>
