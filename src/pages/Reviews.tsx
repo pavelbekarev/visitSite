@@ -18,22 +18,34 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <div className="slider__block">
-        <span className="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae quae illo qui, facere tenetur mollitia, reiciendis aliquid dolor officiis dolore quaerat! Voluptatibus est nihil laboriosam quis magnam quam autem.</span>
+        <span className="slider__text">HR-работник проявил высокую компетентность и профессионализм в процессе найма персонала. Он был очень внимателен к нашим требованиям и нашел кандидатов, отвечающих всем нашим ожиданиям</span>
+        <br/>
+        <span className="reviewAuthor__name">Ольга Худышкина</span>
       </div>
       <div>
-        <span className="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae quae illo qui, facere tenetur mollitia, reiciendis aliquid dolor officiis dolore quaerat! Voluptatibus est nihil laboriosam quis magnam quam autem.</span>
+        <span className="slider__text">Мы были приятно удивлены работой HR-специалиста. Он был приветлив и понимающий, всегда готов оказать помощь и ответить на наши вопросы</span>
+        <br/>
+        <span className="reviewAuthor__name">Валерий Максимов</span>
       </div>
       <div>
-        <span className="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae quae illo qui, facere tenetur mollitia, reiciendis aliquid dolor officiis dolore quaerat! Voluptatibus est nihil laboriosam quis magnam quam autem.</span>
+        <span className="slider__text">HR-работник проявил исключительную организованность и умение управлять большим объемом информации. Он эффективно координировал процесс найма сотрудников, благодаря чему мы смогли быстро заполнить все вакансии</span>
+        <br/>
+        <span className="reviewAuthor__name">Анатолий Тарасов</span>
       </div>
       <div>
-        <span className="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae quae illo qui, facere tenetur mollitia, reiciendis aliquid dolor officiis dolore quaerat! Voluptatibus est nihil laboriosam quis magnam quam autem.</span>
+        <span className="slider__text">Отличный HR-специалист! Он был очень внимателен к нашим потребностям и обладал отличными коммуникативными навыками. Благодаря ему, претенденты на вакансию чувствовали себя комфортно и доверились ему.</span>
+        <br/>
+        <span className="reviewAuthor__name">Милана Леонова</span>
       </div>
       <div>
-        <span className="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae quae illo qui, facere tenetur mollitia, reiciendis aliquid dolor officiis dolore quaerat! Voluptatibus est nihil laboriosam quis magnam quam autem.</span>
+        <span className="slider__text">HR-работник продемонстрировал высокую этику и профессионализм во всех своих действиях. Он всегда соблюдал конфиденциальность информации и справедливо относился ко всем кандидатам.</span>
+        <br/>
+        <span className="reviewAuthor__name">Данил Круглов</span>
       </div>
       <div>
-        <span className="slider__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, animi! Velit veritatis, molestiae cumque veniam asperiores quas temporibus corrupti, beatae corporis, dignissimos maxime reiciendis repellat? Accusamus suscipit enim aperiam optio?</span>
+        <span className="slider__text">Сотрудничество с HR-специалистом принесло нам отличные результаты. Он был отзывчив и готов помочь в любой ситуации, что сделало наше сотрудничество очень продуктивным и приятным</span>
+        <br/>
+        <span className="reviewAuthor__name">Евгений Орехов</span>
       </div>
     </Slider>
   );

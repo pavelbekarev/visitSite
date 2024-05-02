@@ -34,7 +34,7 @@
     height: 50px;
     fill: red;
     left: 50%;
-    top: 29%;
+    top: 33%;
 }
 
 .bottom__content {
@@ -64,6 +64,7 @@
     letter-spacing: 3px;
     font-weight: 500;
     padding-bottom: 40px;
+    width: 400px;
 }
 
 
@@ -86,6 +87,10 @@
         width: 110px;
         height: 60px;
         top: 34%;
+    }
+
+    .bottom__text {
+        width: 300px;
     }
 }
 
@@ -131,6 +136,10 @@
     .bottomContent__image-wrapper {
         // width: 250px;
         height: 300px;
+    }
+
+    .line {
+        top: 33%;
     }
 }
 

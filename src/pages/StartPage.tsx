@@ -26,7 +26,7 @@ export const StartPage = (): JSX.Element => {
                                     HRBP, Управленец, педагог-психолог, коуч.
                                 </span>
                             </div>
-                            <a href="" className="contactButton__wrapper">Связаться</a>
+                            <a href="https://vk.com/im?sel=152908366" target="_blank" className="contactButton__wrapper">Связаться</a>
                         </div>
                     </div>
                 </section>

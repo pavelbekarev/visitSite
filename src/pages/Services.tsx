@@ -10,6 +10,8 @@ export const Services = (): JSX.Element => {
     const [item4Visible, setitem4Visible]= useState<Boolean>(false);
     const [item5Visible, setitem5Visible]= useState<Boolean>(false);
     const [item6Visible, setitem6Visible]= useState<Boolean>(false);
+    const [item7Visible, setitem7Visible]= useState<Boolean>(false);
+    const [item8Visible, setitem8Visible]= useState<Boolean>(false);
 
     return (
         <>
@@ -57,7 +59,7 @@ export const Services = (): JSX.Element => {
                                                 <div className="prices__info">
                                                    
                                                 </div>
-                                                <a href="" className="registration__button">
+                                                <a href="https://forms.gle/5KAkMCX1qHPcbM1VA" target="_blank" className="registration__button">
                                                     Записаться
                                                 </a>
                                             </div>
@@ -91,7 +93,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="" className="registration__button">
+                                                    <a href="https://forms.gle/s1vwGKAcKTX91Y5T7" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -124,7 +126,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="" className="registration__button">
+                                                    <a href="https://forms.gle/XS7REAbh2tKTDQKy5" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -156,7 +158,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="" className="registration__button">
+                                                    <a href="https://forms.gle/zpyUmGbjNuqppRk37" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -191,7 +193,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="" className="registration__button">
+                                                    <a href="https://forms.gle/HUMBYzJSF4ogy4Ec9" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -226,7 +228,112 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="" className="registration__button">
+                                                    <a href="https://forms.gle/Y7tNzJuQA3X55nWf7" target="_blank" className="registration__button">
+                                                        Записаться
+                                                    </a>
+                                                </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <h1 className="services__h1">Пакеты</h1>
+                            <div className="servicesContent__wrapper">
+                                <div className="accordion">
+                                    <div className={`accordion-item ${item7Visible ? "accordion__animation" : ""}`} >
+                                        <div 
+                                            className={`accordion-header`}
+                                            onClick={() => {
+                                                setitem7Visible(!item7Visible);
+                                            }}
+                                        >
+                                            Абонемент на месяц
+                                        </div>
+                                        {
+                                            item7Visible 
+                                            &&
+                                            <form 
+                                                className={`accordion-content ${item1Visible ? "accordion__animation" : ""}`}
+                                                // style={(item1Visible || !item1Visible) && {transition: "0.3s all ease"}}
+                                            >
+                                                <span>
+                                                    <i>
+                                                        После проведения сессии (минимум 4 часа сессия или по 2 часа в несколько дней) 
+                                                    </i>
+                                                </span>
+                                                <h4>Результаты</h4>
+                                                <ul className="list">
+                                                    <li>—   составление профиля кандидата - 1 вакансия;</li>
+                                                    <li>—   размещение вакансии в каб. компании;</li>
+                                                    <li>—   работа с откликами и поиск кандидатов на вашей платформе (оплата пакета за счет компании).</li>
+                                                    <li>—   проведение тестового дня с новыми кандидатами и оценка компетенции;</li>
+                                                    <li>—   составление плана стажировки;</li>
+                                                    <li>—   организация и проведение аттестации сотрудника (итог аттестации);</li>
+                                                    <li>—   подготовка должностных документов на 1 должности;</li>
+                                                    <li>—   разработка мотивации должности - 1 вакансия;</li>
+                                                    <li>—   разработка положения о конфиденциальности работы в компании;</li>
+                                                    {/* <li>—   прописанный регламент работы 1 отдела.</li> */}
+                                                    <li>—   сессия по ценностям и этики компании;</li>
+                                                    <li>—   игра  практика на командообразование (1 игра)</li>
+                                                    <li>—   консультации по управлению — 4 часов.</li>
+                                                    <li>—   скидка 10% на все сессии и участие в проектах консалтинга.</li>
+                                                </ul>
+                                                <div className="prices__info">
+                                                   
+                                                </div>
+                                                <a 
+                                                    type="submit" 
+                                                    href="https://forms.gle/5xckKH6wCdwmAsGQ7" 
+                                                    target="_blank" 
+                                                    className="registration__button"
+                                                >
+                                                    Записаться
+                                                </a>
+                                            </form>
+                                        }
+                                    </div>
+                                    <div className="accordion-item">
+                                        <div 
+                                            className="accordion-header"
+                                            onClick={() => {
+                                                setitem2Visible(!item2Visible);
+                                            }}
+                                        >
+                                            абонемент на квартал
+                                        </div>
+                                        {
+                                            item2Visible 
+                                            &&
+                                                <div 
+                                                    className="accordion-content"
+                                                >
+                                                    <span>
+                                                        <i>
+                                                            Проведение 2-х часовой сессии со всеми топами компании.
+                                                        </i>
+                                                    </span>
+                                                    <h4>Результаты</h4>
+                                                    <ul className="list">
+                                                        <li>—   составление профиля кандидата - 2 вакансии;</li>
+                                                        <li>—   размещение 2 вакансий в каб. компании;</li>
+                                                        <li>—   работа с откликами и поиск кандидатов на вашей платформе (оплата пакета за счет компании).</li>
+                                                        <li>—   проведение тестового дня с новыми кандидатами и оценка компетенции;</li>
+                                                        <li>—   составление плана стажировки;</li>
+                                                        <li>—   организация и проведение аттестации сотрудника (итог аттестации); </li>
+                                                        <li>—   подготовка должностных документов на 4 должности; </li>
+                                                        <li>—   разработка мотивации должности</li>
+                                                        <li>—   разработка положения о конфиденциальности работы в компании;</li>
+                                                        <li>—   прописанный регламент работы 1 отдела.</li>
+                                                        <li>—   сессия по ценностям и этики компании;</li>
+                                                        <li>—   игра  практика на командообразование (1 игра)</li>
+                                                        <li>—   консультации по управлению — 10 часов.</li>
+                                                        <li>—   скидка 10% на все сессии и участие в проектах консалтинга.</li>
+                                                    </ul>
+                                                    <div className="prices__info">
+                                                        
+                                                    </div>
+                                                    <a href="https://forms.gle/wDGNDqVMVRe8ZPqf7" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
