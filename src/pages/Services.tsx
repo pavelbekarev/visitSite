@@ -297,13 +297,13 @@ export const Services = (): JSX.Element => {
                                         <div 
                                             className="accordion-header"
                                             onClick={() => {
-                                                setitem2Visible(!item2Visible);
+                                                setitem8Visible(!item8Visible);
                                             }}
                                         >
                                             абонемент на квартал
                                         </div>
                                         {
-                                            item2Visible 
+                                            item8Visible 
                                             &&
                                                 <div 
                                                     className="accordion-content"
