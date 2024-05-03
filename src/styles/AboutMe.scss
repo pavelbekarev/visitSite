@@ -48,6 +48,9 @@
 .bottomContent__image-wrapper {
     max-width: 400px;
     height: 500px;
+    -webkit-box-shadow: -18px 27px 67px -28px rgba(0,0,0,0.38);
+    -moz-box-shadow: -18px 27px 67px -28px rgba(0,0,0,0.38);
+    box-shadow: -18px 27px 67px -28px rgba(0,0,0,0.38);
 }
 
 .bottomContent__image {

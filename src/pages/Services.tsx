@@ -59,7 +59,7 @@ export const Services = (): JSX.Element => {
                                                 <div className="prices__info">
                                                    
                                                 </div>
-                                                <a href="https://forms.gle/5KAkMCX1qHPcbM1VA" target="_blank" className="registration__button">
+                                                <a href="https://forms.gle/wvTUph8bpFpZoUEK7" target="_blank" className="registration__button">
                                                     Записаться
                                                 </a>
                                             </div>
@@ -93,7 +93,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/s1vwGKAcKTX91Y5T7" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/8vKE64quj55sJUSLA" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -126,7 +126,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/XS7REAbh2tKTDQKy5" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/gsP2DJ4sQiqiFJZb9" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -158,7 +158,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/zpyUmGbjNuqppRk37" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/so8SJjkKgtY7zssLA" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -193,7 +193,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/HUMBYzJSF4ogy4Ec9" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/4uhNBXUQeKYLpQki6" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -228,7 +228,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/Y7tNzJuQA3X55nWf7" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/xWhH1CJar6SKdT5K8" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
@@ -284,7 +284,7 @@ export const Services = (): JSX.Element => {
                                                 </div>
                                                 <a 
                                                     type="submit" 
-                                                    href="https://forms.gle/5xckKH6wCdwmAsGQ7" 
+                                                    href="https://forms.gle/oRj2uiEAWbi2zu7i8" 
                                                     target="_blank" 
                                                     className="registration__button"
                                                 >
@@ -333,7 +333,7 @@ export const Services = (): JSX.Element => {
                                                     <div className="prices__info">
                                                         
                                                     </div>
-                                                    <a href="https://forms.gle/wDGNDqVMVRe8ZPqf7" target="_blank" className="registration__button">
+                                                    <a href="https://forms.gle/FQKburrJSt4fsD9a6" target="_blank" className="registration__button">
                                                         Записаться
                                                     </a>
                                                 </div>
