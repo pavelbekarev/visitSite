@@ -31,7 +31,7 @@
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .owner__name {
@@ -40,11 +40,67 @@
     color: rgba(85, 61, 42, .95);
     font-size: 36px;
     letter-spacing: 7px;
+    margin-top: 15px;
 }
 
 .profession__descr {
-    font-family: "Montserrat-Italic";
-    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    gap: 20px;
+    align-items: left;
+    font-family: "Montserrat-Regular";
+    text-align: justify;
+    margin-top: 65px;
+
+    h3 {
+        font-size: 30px;
+        text-align: left;
+        font-family: "PTSerif-Regular";
+        color: rgba(85, 61, 42, 0.95);
+        font-size: 36px;
+        letter-spacing: 7px;
+    }
+}
+
+.span__wrapper {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding-top: 20px;
+    margin-top: 30px;
+
+    h4 {
+        font-family: "PTSerif-Regular";
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    span {
+        margin-top: 20px;
+        margin-left: 10px;
+        color: rgba(67,75,77, 1);
+    }
+
+    span:last-child {
+        font-weight: 500;
+        text-align: center;
+        font-family: "Montserrat-Medium";
+    }
+
+    // &:not(:last-child)::before {
+    //     position: relative;
+    //     width: 100%;
+    //     height: .1px;
+    //     background-color: rgba(85, 61, 42, 1);
+    //     content: "";
+    // }
+
+    &:not(:last-child) {
+        border-top: 1px rgba(85, 61, 42, 1) solid;
+    }
 }
 
 .contactButton__wrapper {

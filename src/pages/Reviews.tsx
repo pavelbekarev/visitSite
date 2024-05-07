@@ -78,7 +78,9 @@ export const Reviews = () => {
                             <div className="slider__wrapper">
                                 <SimpleSlider />
                             </div>
-                            <h1 className="reviews__h1">Выполненные работы</h1>
+
+                            {/* Выполненные работы */}
+                            {/* <h1 className="reviews__h1">Выполненные работы</h1>
                             <div className="works__wrapper">
                                 <div className="accordion">
                                     <div className={`accordion-item ${item1Visible ? "accordion__animation" : ""}`} >
@@ -154,7 +156,7 @@ export const Reviews = () => {
                                         }
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

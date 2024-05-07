@@ -12,6 +12,10 @@ export const Services = (): JSX.Element => {
     const [item6Visible, setitem6Visible]= useState<Boolean>(false);
     const [item7Visible, setitem7Visible]= useState<Boolean>(false);
     const [item8Visible, setitem8Visible]= useState<Boolean>(false);
+    const [item9Visible, setitem9Visible]= useState<Boolean>(false);
+    const [item10Visible, setitem10Visible]= useState<Boolean>(false);
+    const [item11Visible, setitem11Visible]= useState<Boolean>(false);
+    const [item12Visible, setitem12Visible]= useState<Boolean>(false);
 
     return (
         <>
@@ -29,6 +33,70 @@ export const Services = (): JSX.Element => {
                             <h1 className="services__h1">Услуги</h1>
                             <div className="servicesContent__wrapper">
                                 <div className="accordion">
+                                    <div className={`accordion-item ${item1Visible ? "accordion__animation" : ""}`} >
+                                        <div 
+                                            className={`accordion-header`}
+                                            onClick={() => {
+                                                setitem9Visible(!item9Visible);
+                                            }}
+                                        >
+                                            HR-аудит компании
+                                        </div>
+                                        {
+                                            item9Visible 
+                                            &&
+                                            <div 
+                                                className={`accordion-content ${item9Visible ? "accordion__animation" : ""}`}
+                                                // style={(item1Visible || !item1Visible) && {transition: "0.3s all ease"}}
+                                            >
+                                                <h4>Результаты</h4>
+                                                <ul className="list">
+                                                    <li>—   Диогностика процессов с целью выявления точек роста и составления индивидуального плана развития (ИПР)</li>
+                                                    <li>—   Разработка стратегии роста численности компании</li>
+                                                </ul>
+                                                <div className="prices__info">
+                                                    
+                                                </div>
+                                                <a href="https://forms.gle/eN1hoSGFJ7Yua6Kc9" target="_blank" className="registration__button">
+                                                    Записаться
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div className={`accordion-item ${item10Visible ? "accordion__animation" : ""}`} >
+                                        <div 
+                                            className={`accordion-header`}
+                                            onClick={() => {
+                                                setitem10Visible(!item10Visible);
+                                            }}
+                                        >
+                                            HR-архитектура
+                                        </div>
+                                        {
+                                            item10Visible 
+                                            &&
+                                            <div 
+                                                className={`accordion-content ${item9Visible ? "accordion__animation" : ""}`}
+                                                // style={(item1Visible || !item1Visible) && {transition: "0.3s all ease"}}
+                                            >
+                                                <h4>Результаты</h4>
+                                                <ul className="list">
+                                                    <li>—   Построение работы с персоналом</li>
+                                                    <li>—   Сопровождение работы</li>
+                                                    <li>—   От 1 до 3 месяцев</li>
+                                                </ul>
+                                                <div className="prices__info">
+                                                    
+                                                </div>
+                                                <a href="https://forms.gle/sJ8dzb5fJD8zPuTWA" target="_blank" className="registration__button">
+                                                    Записаться
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+
+                                    
+
                                     <div className={`accordion-item ${item1Visible ? "accordion__animation" : ""}`} >
                                         <div 
                                             className={`accordion-header`}
@@ -52,9 +120,9 @@ export const Services = (): JSX.Element => {
                                                 </span>
                                                 <h4>Результаты</h4>
                                                 <ul className="list">
-                                                    <li>—   Сбор анамнеза. Выявление психологических и физиологических причин лишнего веса</li>
-                                                    <li>—   Анализ рациона по дневнику питания</li>
-                                                    <li>—   Рекомендации по питанию, изменению пищевого поведения, регуляции эмоционального состояния в зависимости от вашего запроса на консультацию</li>
+                                                    <li>—   Построение оргструктуры компании и план найма, адаптация и обучения персонала, система наставничества</li>
+                                                    <li>—   Прописанные бизнес процессы</li>
+                                                    <li>—   Мотивация и показатели персонала.</li>
                                                 </ul>
                                                 <div className="prices__info">
                                                    
@@ -232,6 +300,78 @@ export const Services = (): JSX.Element => {
                                                         Записаться
                                                     </a>
                                                 </div>
+                                        }
+                                    </div>
+                                    <div className={`accordion-item ${item11Visible ? "accordion__animation" : ""}`} >
+                                        <div 
+                                            className={`accordion-header`}
+                                            onClick={() => {
+                                                setitem11Visible(!item11Visible);
+                                            }}
+                                        >
+                                            Создание корпоративной культуры
+                                        </div>
+                                        {
+                                            item11Visible 
+                                            &&
+                                            <div 
+                                                className={`accordion-content ${item1Visible ? "accordion__animation" : ""}`}
+                                                // style={(item1Visible || !item1Visible) && {transition: "0.3s all ease"}}
+                                            >
+                                                {/* <span>
+                                                    <i>
+                                                        После проведения сессии (минимум 4 часа сессия или по 2 часа в несколько дней) 
+                                                    </i>
+                                                </span>
+                                                <h4>Результаты</h4>
+                                                <ul className="list">
+                                                    <li>—   Построение оргструктуры компании и план найма, адаптация и обучения персонала, система наставничества</li>
+                                                    <li>—   Прописанные бизнес процессы</li>
+                                                    <li>—   Мотивация и показатели персонала.</li>
+                                                </ul> */}
+                                                <div className="prices__info">
+                                                   
+                                                </div>
+                                                <a href="https://forms.gle/XxzYbCeBJ3nev4i9A" target="_blank" className="registration__button">
+                                                    Записаться
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div className={`accordion-item ${item12Visible ? "accordion__animation" : ""}`} >
+                                        <div 
+                                            className={`accordion-header`}
+                                            onClick={() => {
+                                                setitem12Visible(!item12Visible);
+                                            }}
+                                        >
+                                            Проведение деловых игр и тренингов
+                                        </div>
+                                        {
+                                            item12Visible 
+                                            &&
+                                            <div 
+                                                className={`accordion-content ${item1Visible ? "accordion__animation" : ""}`}
+                                                // style={(item1Visible || !item1Visible) && {transition: "0.3s all ease"}}
+                                            >
+                                                {/* <span>
+                                                    <i>
+                                                        После проведения сессии (минимум 4 часа сессия или по 2 часа в несколько дней) 
+                                                    </i>
+                                                </span>
+                                                <h4>Результаты</h4>
+                                                <ul className="list">
+                                                    <li>—   Построение оргструктуры компании и план найма, адаптация и обучения персонала, система наставничества</li>
+                                                    <li>—   Прописанные бизнес процессы</li>
+                                                    <li>—   Мотивация и показатели персонала.</li>
+                                                </ul> */}
+                                                <div className="prices__info">
+                                                   
+                                                </div>
+                                                <a href="https://forms.gle/jBYakWaSS6b4U3Xz9" target="_blank" className="registration__button">
+                                                    Записаться
+                                                </a>
+                                            </div>
                                         }
                                     </div>
                                 </div>
