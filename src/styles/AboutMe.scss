@@ -16,7 +16,7 @@
 .upper__content__bg {
     position: absolute;
     top: 100px;
-    background-color: rgba(67, 75, 77, 0.85);
+    background-color: rgb(255, 222, 184);
     width: 100%;
     height: 370px;
     z-index: -1;
@@ -26,7 +26,7 @@
     font-family: "PTSerif-Regular";
     font-size: 36px;
     letter-spacing: 3px;
-    color: rgb(255, 255, 255)
+    color: rgba(67,75,77, 0.8);
 }
 
 .upper__text {
@@ -37,18 +37,18 @@
     text-align: left;
     font-size: 18px;
     letter-spacing: 2px;
-    color: rgb(238, 238, 238);
+    color: rgba(67,75,77, 1);
     list-style: none;
 
     li {
         text-align: justify;
-        &::before {
-            position: relative;
-            font-family: "Montserrat-Bold";
-            font-size: 30px;
-            content: "!";
-            margin-right: 10px;
-        }
+        // &::before {
+        //     position: relative;
+        //     font-family: "Montserrat-Bold";
+        //     font-size: 30px;
+        //     content: "!";
+        //     margin-right: 10px;
+        // }
     }
 }
 
