@@ -17,7 +17,7 @@ export const Contacts = () => {
                     <div className="container">
                         <div className="contacts__wrapper">
                             <h1 className="contacts__h1">Контакты</h1>
-                            <span className="contacts__text">Чтобы записаться на прием или задать вопрос, напишите мне</span>
+                            <span className="contacts__text">Чтобы записаться на консультацию или задать вопрос, напишите мне</span>
                             <a className="social" href="https://web.telegram.org/k/" target="_blank">Telegram</a>
                             <a className="social" href="https://vk.com/im?sel=152908366" target="_blank">ВКонтакте</a>
                         </div>
