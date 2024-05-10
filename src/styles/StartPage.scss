@@ -90,6 +90,15 @@
         font-family: "Montserrat-Medium";
     }
 
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 2%;
+        gap: 10px;
+        list-style: none;
+    }
+
     // &:not(:last-child)::before {
     //     position: relative;
     //     width: 100%;

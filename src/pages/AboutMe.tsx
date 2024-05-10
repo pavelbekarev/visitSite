@@ -26,18 +26,19 @@ export const AboutMe = (): JSX.Element => {
             </header>
             <main>
                 <section>
+                    <div className="upper__content__bg"></div>
                     <div className="container">
                         <div className="aboutMe__wrapper">
                             <div className="upper__content">
-                                <h1 className="upper__h1">Привет! Я - Наталья Верина</h1>
-                                <span className="upper__text">
-                                    Более 15 лет опыта работы с человеческим ресурсом.
-                                    Данный опыт помог изучить изнутри разные бизнес процессы,
-                                    сильные, слабые стороны в подборе и построении команды,
-                                    в управлении и ее развитии, мотивации персонала.
-                                </span>
+                                <h1 className="upper__h1">Приветсвую Вас! Я Наталья Верина</h1>
+                                <ul className="upper__text">
+                                    <li>Эксперт в сфере управления человеческим ресурсом и стратегического планирования. Основатель Управленского консалтинга "Ресурс". Мой опыт работы помог мне изучить изнутри разные бизнес процессы, их оптимизацию и внедрение.</li>
+                                    <li>Занималась подбором и построением команды, оргструктурой компании. Внедрила адаптацию и неставническую программу.</li>
+                                    <li>И всё это привело меня к основам управления персоналом. Ведь можно сколько угодно подбирать и обучать кадры если нет здравого управления командой.</li>
+                                    
+                                </ul>
                             </div>
-                            <img className="line" src={line} alt="" />
+                            {/* <img className="line" src={line} alt="" /> */}
                             <div className="bottom__content">
                                 <div className="bottomContent__image-wrapper">
                                     <img className="bottomContent__image" src={image} alt="ownerImage" />

@@ -14,7 +14,8 @@ $textColor: rgba(85, 61, 42, .95);
     font-size: 40px;
     letter-spacing: 5px;
     color: $textColor;
-
+    text-align: center;
+    // margin-bottom: 50px;
     margin-top: 50px;
 }
 
@@ -74,6 +75,7 @@ $textColor: rgba(85, 61, 42, .95);
     span {
         font-family: "Montserrat-Italic";
         color: rgba(67,75,77, 1);
+        text-align: center;
     }
 
     h4 {
