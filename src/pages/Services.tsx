@@ -30,7 +30,7 @@ export const Services = (): JSX.Element => {
                 <section>
                     <div className="container">
                         <div className="services__wrapper">
-                            <h1 className="services__h1">Предоставляю услуги управленческого консалтинга агентства "Ресурс"</h1>
+                            <h1 className="services__h1">Предоставляю услуги управленческого консалтинга "Ресурс"</h1>
                             <div className="servicesContent__wrapper">
                                 <div className="accordion">
                                     <div className={`accordion-item ${item1Visible ? "accordion__animation" : ""}`} >
