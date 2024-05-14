@@ -2,6 +2,7 @@ import { HeaderMenu } from "../components/HeaderMenu";
 import ownerImage from "../img/start_page.png";
 import "../styles/AboutMe.scss";
 import line from "../img/Line.svg"
+import "../styles/HeaderMenu.scss";
 
 import image from "../img/about-1.jpg";
 import { Link } from "react-router-dom";
@@ -15,10 +16,10 @@ export const AboutMe = (): JSX.Element => {
                     <div className="container">
                         <div className="headerMenu__wrapper">
                             <ul className="headerList">
-                                <li className="headerList__item"><Link to={"/visitSite"}>главная</Link></li>
-                                <li className="headerList__item"><Link to={"/services"}>услуги</Link></li>
-                                <li className="headerList__item"><Link to={"/reviews"}>отзывы</Link></li>
-                                <li className="headerList__item"><Link to={"/contacts"}>контакты</Link></li>
+                                <li className="headerList__item"><Link to={"/"}>Главная</Link></li>
+                                <li className="headerList__item"><Link to={"/services"}>Услуги</Link></li>
+                                <li className="headerList__item"><Link to={"/reviews"}>Отзывы</Link></li>
+                                <li className="headerList__item"><Link to={"/contacts"}>Контакты</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -30,9 +31,9 @@ export const AboutMe = (): JSX.Element => {
                     <div className="container">
                         <div className="aboutMe__wrapper">
                             <div className="upper__content">
-                                <h1 className="upper__h1">Приветствую Вас! Я Наталья Верина</h1>
+                                <h1 className="upper__h1">Приветствую Вас!<br/> Я - Наталья Верина</h1>
                                 <ul className="upper__text">
-                                    <li>Эксперт в сфере управления человеческим ресурсом и стратегического планирования. Основатель Управленского консалтинга "Ресурс".</li>
+                                    <li>Эксперт в сфере управления человеческим ресурсом и стратегического планирования. Основатель Управленского консалтинга «Ресурс».</li>
                                     <li>Мой опыт работы помог мне изучить изнутри разные бизнес процессы, их оптимизацию и внедрение.Занималась подбором и построением команды, оргструктурой компании. Внедрила адаптацию и наставническую программу. И всё это привело меня к основам управления персоналом. <br/>Можно сколько угодно подбирать и обучать кадры, тратить большой бюджет, терять прибыль, если нет здравого управления командой.</li>
                                     <li>В прошлом активный деятель в региональных социальных проектах области, предприниматель около 10 лет, автор трёх масштабных проектов, тренингов, играпактик.
                                     Фасилитатор.
